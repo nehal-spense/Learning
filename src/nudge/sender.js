@@ -15,7 +15,15 @@ export function composeMessage(streakCount, completedToday, messages) {
   const pool = completedToday ? messages.congratulations : messages.reminders;
   const index = Math.floor(Math.random() * pool.length);
   const template = pool[index];
-  return template.replace(/\{streak\}/g, String(streakCount));
+  let message = template.replace(/\{streak\}/g, String(streakCount));
+
+  // Add a topic suggestion for reminders
+  if (!completedToday && messages.suggestions && messages.suggestions.length > 0) {
+    const sugIndex = Math.floor(Math.random() * messages.suggestions.length);
+    message += `\n\n${messages.suggestions[sugIndex]}`;
+  }
+
+  return message;
 }
 
 /**

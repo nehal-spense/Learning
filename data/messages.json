@@ -12,5 +12,22 @@
     "⭐ Consistent learner! Day {streak} complete!",
     "🔥 You're on fire! {streak}-day streak!",
     "✅ Done for today! {streak} days strong!"
+  ],
+  "suggestions": [
+    "📌 Today's idea: Dive into system design — try designing a rate limiter or URL shortener.",
+    "📌 Today's idea: Learn about database indexing — B-trees, hash indexes, and when to use each.",
+    "📌 Today's idea: Explore concurrency patterns — mutexes, channels, or async/await internals.",
+    "📌 Today's idea: Study a new design pattern — try Observer, Strategy, or Circuit Breaker.",
+    "📌 Today's idea: Read about distributed systems — CAP theorem, eventual consistency, or consensus algorithms.",
+    "📌 Today's idea: Learn about caching strategies — write-through, write-back, cache invalidation.",
+    "📌 Today's idea: Explore container internals — namespaces, cgroups, and how Docker really works.",
+    "📌 Today's idea: Study API design — REST best practices, gRPC, or GraphQL trade-offs.",
+    "📌 Today's idea: Learn about observability — structured logging, distributed tracing, or metrics.",
+    "📌 Today's idea: Dive into security — OWASP top 10, JWT internals, or OAuth2 flows.",
+    "📌 Today's idea: Explore testing strategies — property-based testing, contract testing, or chaos engineering.",
+    "📌 Today's idea: Study networking fundamentals — TCP handshake, DNS resolution, or HTTP/2 vs HTTP/3.",
+    "📌 Today's idea: Learn about CI/CD pipelines — build caching, artifact management, or canary deploys.",
+    "📌 Today's idea: Explore data structures — tries, bloom filters, or skip lists.",
+    "📌 Today's idea: Read about event-driven architecture — event sourcing, CQRS, or message brokers."
   ]
 }
