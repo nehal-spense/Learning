@@ -1,0 +1,25 @@
+{
+  "name": "daily-learning-nudge",
+  "version": "1.0.0",
+  "description": "A serverless daily learning habit tracker with Telegram bot notifications, CLI tool, and Git-based storage",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:property": "vitest run tests/property/",
+    "test:unit": "vitest run tests/unit/",
+    "test:integration": "vitest run tests/integration/",
+    "nudge": "node src/nudge/run.js",
+    "cli": "node src/cli/index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.1",
+    "fast-check": "^4.1.1"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "reminders": [
+    "🧠 Time to feed your brain! What will you learn today?",
+    "📚 Your future self will thank you. Let's learn something new!",
+    "🚀 Keep the momentum going! What's on the learning menu?",
+    "💡 Small daily lessons compound into expertise. Ready?",
+    "🌱 Growth happens one day at a time. What's today's lesson?"
+  ],
+  "congratulations": [
+    "🎉 You did it! {streak} days and counting!",
+    "🏆 Another day, another lesson! Streak: {streak}",
+    "⭐ Consistent learner! Day {streak} complete!",
+    "🔥 You're on fire! {streak}-day streak!",
+    "✅ Done for today! {streak} days strong!"
+  ]
+}

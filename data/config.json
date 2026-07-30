@@ -1,0 +1,7 @@
+{
+  "notificationTime": "09:00",
+  "timezone": "UTC",
+  "quietDays": [],
+  "streakRecoveryEnabled": true,
+  "notificationsEnabled": true
+}
